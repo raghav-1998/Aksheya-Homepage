@@ -1,3 +1,5 @@
+import { RiCheckDoubleLine } from "react-icons/ri";
+
 export default function About(){
     return(
         <div className="py-[60px]">
@@ -21,13 +23,16 @@ export default function About(){
                         </p>
                         <ul className="mb-[16px]">
                             <li className="relative list-item pl-[28px]">
+                                <RiCheckDoubleLine className="absolute left-0 top-[2px] text-[20px] text-[#14279b]"/>
                                 We started with a simple idea: do what is best for the client.
                             </li>
                             <li className="relative list-item pl-[28px] mt-[10px]">
+                                <RiCheckDoubleLine className="absolute left-0 top-[2px] text-[20px] text-[#14279b]"/>
                                 Our methodical and individual approach to each project delivers the 
                                 finest possible results for your media.
                             </li>
                             <li className="relative list-item pl-[28px] mt-[10px]">
+                                <RiCheckDoubleLine className="absolute left-0 top-[2px] text-[20px] text-[#14279b]"/>
                                 Our day-to-day work is to solve your problems utilising the most up-
                                 to-date, practical adaptive technology, and we have a lot of fun doing it.
                             </li>
